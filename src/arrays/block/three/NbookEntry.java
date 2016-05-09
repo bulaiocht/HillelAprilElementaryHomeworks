@@ -3,6 +3,7 @@ package arrays.block.three;
 import java.util.Date;
 
 /**
+ * This class represents standard contact entry.
  * Created by Vitalii Kocherga on 18.04.2016.
  */
 public class NbookEntry {

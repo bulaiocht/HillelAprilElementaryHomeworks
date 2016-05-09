@@ -1,7 +1,8 @@
 package arrays.block.three;
 
 /**
- * Created by Vitalii Kocherga on 18.04.2016.
+ * This enum consists available contact's groups
+ * Created by Kocherga Vitalii
  */
 public enum Group {
     FAMILY,

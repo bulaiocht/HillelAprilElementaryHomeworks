@@ -1,6 +1,7 @@
 package arrays.block.three;
 
 /**
+ * Class with main static method.
  * Created by Vitalii Kocherga on 18.04.2016.
  */
 

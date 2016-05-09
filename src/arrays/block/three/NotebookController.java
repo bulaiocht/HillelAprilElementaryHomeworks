@@ -4,6 +4,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
+ * This is notebook controller class. It ties up model class and user interface.
  * Created by Vitalii Kocherga on 4/20/16.
  */
 
@@ -30,6 +31,10 @@ public class NotebookController implements InputChecker {
             }
         }
         return false;
+    }
+
+    public void userProcess() {
+
     }
 
 
