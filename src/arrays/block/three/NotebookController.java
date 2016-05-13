@@ -9,8 +9,8 @@ import java.util.regex.Pattern;
  */
 
 public class NotebookController implements InputChecker {
-    Notebook notebook;
-    NotebookCLI notebookCLI;
+    private Notebook notebook;
+    private NotebookCLI notebookCLI;
 
     public NotebookController(Notebook nbook, NotebookCLI nbookCli) {
         this.notebook = nbook;
