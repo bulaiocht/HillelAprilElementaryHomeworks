@@ -3,9 +3,11 @@ package arrays.block.three;
 import java.util.Date;
 
 /**
+ * Interface consisting basic regex constants for user input validation.
  * Created by Vitalii Kocherga on 18.04.2016.
  */
-public interface InputChecker {
+
+interface InputChecker {
 
     /**
      * REGEX pattern for Name
