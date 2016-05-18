@@ -141,4 +141,23 @@ public class NbookEntry {
     public void setCorrectionDate(Date correctionDate) {
         this.correctionDate = correctionDate;
     }
+
+    @Override
+    public String toString() {
+        return "Contact{" +
+                "lastName='" + lastName + '\'' +
+                ", firstName='" + firstName + '\'' +
+                ", patronymic='" + patronymic + '\'' +
+                ", nickName='" + nickName + '\'' +
+                ", group=" + group +
+                ", comment='" + comment + '\'' +
+                ", homePhone='" + homePhone + '\'' +
+                ", mobPhone='" + mobPhone + '\'' +
+                ", email='" + email + '\'' +
+                ", skypeLogin='" + skypeLogin + '\'' +
+                ", address='" + address + '\'' +
+                ", addDate=" + addDate +
+                ", correctionDate=" + correctionDate +
+                '}';
+    }
 }
